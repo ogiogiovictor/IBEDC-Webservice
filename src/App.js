@@ -21,6 +21,7 @@ import Crodss from './components/cro/crodss';
 import Billdistribution from './components/billdistribution/billdistribution';
 import Metereading from './components/metereading/metereading';
 import Tracker from './components/tracker/tracker';
+import Ibedcstaff from './components/staff/ibedcstaff';
 
 const App = () =>  {
   return (
@@ -50,6 +51,7 @@ const App = () =>  {
           <Route path="/billdistribution" element={<Billdistribution/>} />
           <Route path="/metereading" element={<Metereading/>} />
           <Route path="/tracker" element={<Tracker />} />
+          <Route path="/ibedcstaff" element={<Ibedcstaff/>} />
 
         </Routes>
         <Footer/>
